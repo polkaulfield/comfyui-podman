@@ -9,3 +9,5 @@ services:
       - nvidia.com/gpu=all
     stdin_open: true
     tty: true
+    security_opt:
+      - "label=disable"
